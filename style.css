@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  #l_h {
+    
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    width: 50%;
+    height: 50px;
+
+}
+#l_h section {
+    position: absolute;
+    top: -42px;
+    left: 50px;
+    padding-top: 16px;
+  }
+
+
+  header div section h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+  }
+  
+  header div section h5 {
+    display: block;
+    position: relative;
+    color: gray;
+    font-weight: 50;
+    top: -40px;
+    padding-top: 20px;
+  }
+
+  #r_h {
+    position: absolute;
+    right: 141px;
+    top: 43px;
+    text-align: right;
+    
+    width: 50%;
+    
+  }
+
+  hr {
+    
+    width: 81%;
+    margin-top: 120px;
+   
+    background-image: url("img/hr-img.png");
+    
+    height: 15px;
+  }
+
+  main div {
+      position: absolute;
+      left: 130px;
+      
+  }
+
+  main div h2{
+      position: relative;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Squada One', cursive;
+
+
+  }
+  main div h5{
+    display: block;
+    position: relative;
+    color: gray;
+    font-weight: 50;
+    top: -40px;
+    padding-bottom: 20px;
+  }
+  
