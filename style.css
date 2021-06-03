@@ -1,15 +1,19 @@
 * {
     box-sizing: border-box;
   }
+
+  
+  
   #l_h {
     
     position: absolute;
     top: 30px;
-    left: 130px;
+    left: 10%;
     width: 50%;
     height: 50px;
+  }
+    
 
-}
 #l_h section {
     position: absolute;
     top: -42px;
@@ -24,22 +28,25 @@
   }
   
   header div section h5 {
-    display: block;
+    
     position: relative;
     color: gray;
     font-weight: 50;
     top: -40px;
-    padding-top: 20px;
+    padding-top: 15px;
   }
 
   #r_h {
     position: absolute;
-    right: 141px;
+    right: 10%;
     top: 43px;
     text-align: right;
     
     width: 50%;
     
+  }
+  #r_h img:nth-child(7) {
+    margin-left: 7px;
   }
 
   hr {
@@ -52,11 +59,12 @@
     height: 15px;
   }
 
-  main div {
+  main #l_m {
       position: absolute;
-      left: 130px;
+      left: 10%;
       
   }
+  
 
   main div h2{
       position: relative;
@@ -67,6 +75,7 @@
 
   }
   main div h5{
+    
     display: block;
     position: relative;
     color: gray;
@@ -74,4 +83,130 @@
     top: -40px;
     padding-bottom: 20px;
   }
+
+ 
+
+
+main div:nth-child(2) {
+    position: absolute;
+    top: 286px;
+    right: 12%;
+  }
+  
+  main div:nth-child(2) img {
+    position: relative;
+    width: 20px;
+    float: left;
+    position: absolute;
+    top: -15px;
+    left: -3px;
+    display: block;
+  }
+  
+  main div:nth-child(2) h6 {
+    font-size: 14px;
+    position: relative;
+    top: -47px;
+    left: 21px;
+    font-family: Cairo;
+    font-weight: 100;
+    color: gray;
+  }
+
+  #mainimg {
+    width: 81%;
+    position: relative;
+    top: 165px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #par{
+      
+    font-size: 33px;
+    width: 80%;
+    position: relative;
+    top: 35px;
+    left: 10%;
+    font-weight: 10;
+    line-height: 1.3;
+  }
+      
+  
+
+  main #pp {
+      position: relative;
+       top: 170px;
+      
+  }
+  
+  #cont_l{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    bottom: -200px;
+
+      }
+    #list{
+        width: 100%;
+    height: auto;
+
+    }
+
+    #left_v{
+        position: relative;
+    
+    left: 10%;
+    width: 50%;
+    height: 50px;
+
+    }
+
+    #v_s {
+        font-size: 30px;
+        position:absolute;
+        left: 86px;
+        bottom: -130px;
+
+    }
+    #left_v p {
+        position: relative;
+        margin-top: -11px;
+        padding-bottom: 14px;
+
+    }
+
+    #icon{
+        position: absolute;
+
+        background-color: brown;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 81%;
+    
+    padding-top: 11px;
+    padding-right: 116;
+    }
+    footer{
+        position: relative;
+        padding-top :200px; 
+        left: 10%;
+
+
+    }
+    #foot{
+        position: absolute;
+        left: 40%;
+        
+    }
+    #foot h4{
+        color: grey;
+    }
+
+
+
+    
   
