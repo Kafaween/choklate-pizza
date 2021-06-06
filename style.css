@@ -141,18 +141,39 @@ main div:nth-child(2) {
       
   }
   
-  #cont_l{
-    position: relative;
-    left: 10%;
+  fieldset {
+    background-image: url(../img/list-bg.png);
+    border:none;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
-    bottom: -200px;
-
-      }
-    #list{
-        width: 100%;
-    height: auto;
-
-    }
+    height: 400px;
+    position: relative;
+    top: 200px;
+    left: 10%;
+    font-size: 30px;
+    font-family: Oxygen;
+    font-weight: 900;
+    color: rgb(190, 74, 74);
+  }
+  
+  form fieldset section:nth-child(1) {
+    float: left;
+    position: absolute;
+    left: 60px;
+    font-size: 25px;
+  }
+  
+  form fieldset section:nth-child(2) {
+    float: right;
+    position: absolute;
+    right: 12%;
+    font-size: 25px;
+  }
+  
+.checked {
+    text-decoration: line-through;
+  }
 
     #left_v{
         position: relative;
